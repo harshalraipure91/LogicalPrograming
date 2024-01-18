@@ -11,6 +11,7 @@ namespace LogicalPrograming
 
 		// "Param" keyword which can take variable number of argument
 		// Param parameter must be single dimensional array
+		// Params parameter must be the last parameter in a parameter list
 		static void Main(string[] args)
 		{
 			int y = Add(5, 10, 15, 32, 56, 50);

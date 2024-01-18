@@ -10,7 +10,7 @@ namespace LogicalPrograming
 	{
 		static void Main(string[] args)
 		{
-			string input = "Google Doodlegg";
+			string input = "Google Doodle";
 
 			input = input.ToLower().Replace(" ", string.Empty);
 
