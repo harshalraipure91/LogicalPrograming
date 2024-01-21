@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LogicalPrograming.LogicDemo</StartupObject>
+    <StartupObject>LogicalPrograming.CountEvenNumberInArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,8 @@
     <Compile Include="LogicDemo.cs" />
     <Compile Include="ParamDemo.cs" />
     <Compile Include="RemoveDuplicateCharInString.cs" />
+    <Compile Include="SearchElementInArray.cs" />
+    <Compile Include="CountEvenNumberInArray.cs" />
     <Compile Include="SortArrayElementInAscendingOrder.cs" />
     <Compile Include="CapitaliseFirstCharOfEachWord.cs" />
     <Compile Include="CountNumberOfEachCharInGivenString.cs" />

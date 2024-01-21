@@ -17,12 +17,12 @@ namespace LogicalPrograming
 			SimpleDemo simpleDemo = new SimpleDemo();
 			SimpleDemo simpleDemo2 = new SimpleDemo();
 
-			//simpleDemo = simpleDemo2;
+			//simpleDemo2 = simpleDemo;
 
 			simpleDemo.Value = 10;
 			simpleDemo2.Value = 25;
 
-			simpleDemo2 = simpleDemo;
+			//simpleDemo2 = simpleDemo;
 
 			Console.WriteLine(simpleDemo.Value);
             Console.WriteLine(simpleDemo2.Value);
