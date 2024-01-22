@@ -9,33 +9,18 @@ namespace LogicalPrograming
 {
 	internal class SortArrayElementInAscendingOrder
 	{
+		// This method also called as Bubble sort
 		static void Main(string[] args)
 		{
 			int[] arr = { 34, 64, 25, 12, 22, 11, 90 };
 
 			var n = arr.Length;
-
+					
 			#region Method 1
-
-			//for (int i = 0; i < n - 1; i++)
-			//{
-			//	for (int j = 0; j < n - i - 1; j++)
-			//	{
-			//		if (arr[j] > arr[j + 1])
-			//		{
-			//			var temp = arr[j];
-			//			arr[j] = arr[j + 1];
-			//			arr[j + 1] = temp;
-			//		}
-			//	}
-			//}
-
-			#endregion
-
-			#region Method 2
-
+			//Outer loop responsible for looping all number from array
 			for (int i = 0; i < n - 1; i++)
 			{
+				//inner loop responsible for find lowest number and ten swap
 				for (int j = i + 1; j < n; j++)
 				{
 					if (arr[i] > arr[j])
