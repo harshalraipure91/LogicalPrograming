@@ -47,8 +47,8 @@ namespace LogicalPrograming
 			}
 
 			#endregion
-
-			Console.WriteLine(charArray);
+			inputStr = new string(charArray);
+			Console.WriteLine(inputStr);
 
 			Console.ReadLine();
 		}
