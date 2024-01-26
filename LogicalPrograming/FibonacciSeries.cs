@@ -21,20 +21,42 @@ namespace LogicalPrograming
 			 */
 			#endregion
 
-			int number, previosNumber = -1, nextNumber = 1;
+			#region method1
 
-			Console.WriteLine("Please enter the number which you would like fibonacci series");
-			number = Convert.ToInt32(Console.ReadLine());
+			//int number, previosNumber = -1, nextNumber = 1;
 
-			Console.WriteLine("Fibonacci series ");
+			//Console.WriteLine("Please enter the number which you would like fibonacci series");
+			//number = Convert.ToInt32(Console.ReadLine());
+
+			//Console.WriteLine("Fibonacci series ");
+
+			//for (int i = 0; i < number; i++)
+			//{
+			//	int sumNumber = previosNumber + nextNumber;
+			//	Console.Write(sumNumber + " ");
+			//	previosNumber = nextNumber;
+			//	nextNumber = sumNumber;
+			//}
+
+			#endregion
+
+			#region Method2
+			int a = 0;
+			int b = 1;
+			Console.Write("please enter the number which you would like fibonacci series: ");
+			var number = Convert.ToInt32(Console.ReadLine());
+
+			Console.WriteLine(a);
+			Console.WriteLine(b);
 
 			for (int i = 0; i < number; i++)
 			{
-				int sumNumber = previosNumber + nextNumber;
-				Console.Write(sumNumber + " ");
-				previosNumber = nextNumber;
-				nextNumber = sumNumber;
+				var c = a + b;
+				Console.WriteLine(c);
+				a = b;
+				b = c;
 			}
+			#endregion
 
 			Console.ReadLine();
 		}

@@ -19,31 +19,28 @@ namespace LogicalPrograming
 			1. 0 and 1 are not consider as prime number.
 			2. 2 is even prime number, It is smallest prime number
 
-			Example: 3, 3, 5, 7, 11, 13, 17, 19....
+			Example: 2, 3, 5, 7, 11, 13, 17, 19....
 
 			 */
 
 			Console.Write("Enter a number: ");
 			var inputNumber = Convert.ToInt32(Console.ReadLine());
-			Console.WriteLine($"Prime number between 2 and {inputNumber} are: ");
-			bool isPrime = true;
-			//outer for loop responsible for checking max number
-			for (int i = 2; i <= inputNumber; i++)
+			int count = 0;
+			for (int i = 1; i <= inputNumber; i++)
 			{
-				//inner for loop responsible for checking factor
-				for (int j = 2; j <= inputNumber; j++)
+				if (inputNumber % i == 0)
 				{
-					if (i != j && i % j == 0)
-					{
-						isPrime = false;
-						break;
-					}
+					count++;
 				}
-				if (isPrime)
-				{
-					Console.Write(i + " ");
-				}
-				isPrime = true;
+			}
+
+			if (count == 2)
+			{
+				Console.WriteLine($"The given number {inputNumber} is a prime number.");
+			}
+			else
+			{
+				Console.WriteLine($"The given number {inputNumber} is not a prime number.");
 			}
 
 			Console.ReadLine();
