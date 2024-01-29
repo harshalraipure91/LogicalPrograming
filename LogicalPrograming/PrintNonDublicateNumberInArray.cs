@@ -6,7 +6,7 @@ namespace LogicalPrograming
 {
 	internal class PrintNonDublicateNumberInArray
 	{
-		static async Task Main(string[] args)
+		static void Main(string[] args)
 		{
 
 			int[] aaray = { 1, 1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 9 };
@@ -48,14 +48,23 @@ namespace LogicalPrograming
 
 			#region Method 3
 
-			var duplicate = aaray.Distinct().ToArray();
-			var duplicates = string.Join(" ", duplicate);
-            await Console.Out.WriteLineAsync(duplicates);
+			//var duplicate = aaray.Distinct().ToArray();
+			//var duplicates = string.Join(" ", duplicate);
+			//         await Console.Out.WriteLineAsync(duplicates);
 
-            #endregion
+			#endregion
 
+			#region Method 4
 
-            Console.ReadLine();
+			var duplicate = aaray.ToHashSet();
+			foreach (int i in duplicate)
+			{
+				Console.Write(i + " ");
+			}
+
+			#endregion
+
+			Console.ReadLine();
 
 
 
