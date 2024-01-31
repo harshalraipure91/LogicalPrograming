@@ -10,20 +10,17 @@ namespace LogicalPrograming
 	{
 		static void Main(string[] args)
 		{
-
 			var input = "This is a test message";
 			int count = 0;
 			var subString = "is";
 			var index = input.ToLower().IndexOf(subString);
 
-			while (index > 0)
+			while (index > 0 || index != -1)
 			{
 				count++;
 				index = input.ToLower().IndexOf(subString, index + 1);
 			}
-			Console.WriteLine($"No of count of {subString}' is: {count}");
-
-
+			Console.WriteLine($"No of count of '{subString}' is: {count}");
 
 			Console.ReadLine();
 
