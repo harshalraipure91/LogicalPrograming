@@ -23,18 +23,18 @@ namespace LogicalPrograming
 
 			#region method1
 
-			//int number, previosNumber = -1, nextNumber = 1;
+			//int number, previousNumber = -1, nextNumber = 1;
 
-			//Console.WriteLine("Please enter the number which you would like fibonacci series");
+			//Console.WriteLine("Please enter the number which you would like Fibonacci series");
 			//number = Convert.ToInt32(Console.ReadLine());
 
 			//Console.WriteLine("Fibonacci series ");
 
 			//for (int i = 0; i < number; i++)
 			//{
-			//	int sumNumber = previosNumber + nextNumber;
+			//	int sumNumber = previousNumber + nextNumber;
 			//	Console.Write(sumNumber + " ");
-			//	previosNumber = nextNumber;
+			//	previousNumber = nextNumber;
 			//	nextNumber = sumNumber;
 			//}
 
@@ -43,7 +43,7 @@ namespace LogicalPrograming
 			#region Method2
 			int a = 0;
 			int b = 1;
-			Console.Write("please enter the number which you would like fibonacci series: ");
+			Console.Write("please enter the number which you would like Fibonacci series: ");
 			var number = Convert.ToInt32(Console.ReadLine());
 
 			Console.WriteLine(a);
