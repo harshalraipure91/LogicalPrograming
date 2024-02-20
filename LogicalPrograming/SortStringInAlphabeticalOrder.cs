@@ -10,10 +10,10 @@ namespace LogicalPrograming
 	{
 		static void Main(string[] args)
 		{
-			var inputStr = "Harshal";
-			inputStr = inputStr.ToLower();
-			var charArray = inputStr.ToCharArray();
-			var n = charArray.Length;
+			var input = "Harshal";
+			input = input.ToLower();
+			var inputArray = input.ToCharArray();
+			var n = inputArray.Length;
 
 			#region Method 1
 
@@ -37,18 +37,18 @@ namespace LogicalPrograming
 			{
 				for (int j = i + 1; j < n; j++)
 				{
-					if (charArray[i] > charArray[j])
+					if (inputArray[i] > inputArray[j])
 					{
-						var temp = charArray[i];
-						charArray[i] = charArray[j];
-						charArray[j] = temp;
+						var temp = inputArray[i];
+						inputArray[i] = inputArray[j];
+						inputArray[j] = temp;
 					}
 				}
 			}
 
 			#endregion
-			inputStr = new string(charArray);
-			Console.WriteLine(inputStr);
+			input = new string(inputArray);
+			Console.WriteLine(input);
 
 			Console.ReadLine();
 		}
