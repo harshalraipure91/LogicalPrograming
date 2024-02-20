@@ -18,10 +18,10 @@ namespace LogicalPrograming
 			{
 				if (!char.IsWhiteSpace(input[i]) && !char.IsPunctuation(input[i]))
 				{
-					if (!isWord)
+					if (isWord == false)
 					{
 						count++;
-						isWord = true;						
+						isWord = true;
 					}
 				}
 				else
@@ -31,8 +31,8 @@ namespace LogicalPrograming
 			}
 
 
-            Console.WriteLine(count);
-            Console.ReadLine();
-        }
+			Console.WriteLine(count);
+			Console.ReadLine();
+		}
 	}
 }
