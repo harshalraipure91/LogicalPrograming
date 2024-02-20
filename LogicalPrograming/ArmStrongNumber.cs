@@ -24,11 +24,11 @@ namespace LogicalPrograming
 			number = temp;
 			if (number == result)
 			{
-				Console.WriteLine($"Given number {number} is armstrong number");
+				Console.WriteLine($"Given number {number} is Armstrong number");
 			}
 			else
 			{
-				Console.WriteLine($"Given number {number} is not armstrong number");
+				Console.WriteLine($"Given number {number} is not Armstrong number");
 			}
 
 			Console.ReadLine();
