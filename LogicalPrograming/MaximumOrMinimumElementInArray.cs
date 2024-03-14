@@ -70,8 +70,8 @@ namespace LogicalPrograming
 				}
 					
 			}
-			Console.WriteLine($"Manimum element in array is: {MinElement}");
-			Console.WriteLine($"2nd Manimum element in array is: {MinElement2}");
+			Console.WriteLine($"Minimum element in array is: {MinElement}");
+			Console.WriteLine($"2nd Minimum element in array is: {MinElement2}");
 
 			#endregion
 
