@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalPrograming
 {
-	internal class GetOnlyDuplicateNumbrInArray
+	internal class PrintDuplicateNumbrInArray
 	{
 		static void Main(string[] args)
 		{
