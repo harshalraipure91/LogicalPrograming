@@ -34,14 +34,16 @@ namespace LogicalPrograming
 				}
 			}
 
-			if (count == 2)
-			{
-				Console.WriteLine($"The given number {inputNumber} is a prime number.");
-			}
-			else
-			{
-				Console.WriteLine($"The given number {inputNumber} is not a prime number.");
-			}
+			//if (count == 2)
+			//{
+			//	Console.WriteLine($"The given number {inputNumber} is a prime number.");
+			//}
+			//else
+			//{
+			//	Console.WriteLine($"The given number {inputNumber} is not a prime number.");
+			//}
+
+			Console.WriteLine(count == 2 ? "Prime Number" : "Not a Prime Number");
 
 			Console.ReadLine();
 		}
