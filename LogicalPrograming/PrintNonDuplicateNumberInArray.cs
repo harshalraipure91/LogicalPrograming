@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace LogicalPrograming
 {
-	internal class PrintNonDublicateNumberInArray
+	internal class PrintNonDuplicateNumberInArray
 	{
 		static void Main(string[] args)
 		{
