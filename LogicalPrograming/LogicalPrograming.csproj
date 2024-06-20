@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LogicalPrograming.CountEvenNumberInArray</StartupObject>
+    <StartupObject>LogicalPrograming.EvenOrOddNumber</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,36 +47,61 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractClassDemo.cs" />
+    <Compile Include="Number\ArmStrongNumber.cs" />
+    <Compile Include="Number\CountNoOfDigitsInNumber.cs" />
+    <Compile Include="Pattern\DiamondPatterns.cs" />
+    <Compile Include="Number\EvenOrOddNumber.cs" />
+    <Compile Include="Number\FactorialNumber.cs" />
+    <Compile Include="Number\FibonacciSeries.cs" />
+    <Compile Include="String\FindSubstringCountInString.cs" />
     <Compile Include="IsAndAsDemo.cs" />
-    <Compile Include="LogicDemo.cs" />
+    <Compile Include="Number\LogicDemo.cs" />
+    <Compile Include="Pattern\NumberPatternProgram.cs" />
+    <Compile Include="Pattern\NumberPatternProgram2.cs" />
+    <Compile Include="Pattern\NumberPatternProgram3.cs" />
+    <Compile Include="Number\PalindromeNumber.cs" />
+    <Compile Include="String\PalindromeString.cs" />
     <Compile Include="ParamDemo.cs" />
-    <Compile Include="RemoveDuplicateCharInString.cs" />
-    <Compile Include="SearchElementInArray.cs" />
-    <Compile Include="CountEvenNumberInArray.cs" />
-    <Compile Include="SortArrayElementInAscendingOrder.cs" />
-    <Compile Include="CapitaliseFirstCharOfEachWord.cs" />
-    <Compile Include="CountNumberOfEachCharInGivenString.cs" />
-    <Compile Include="CountNumberOfWordInString.cs" />
-    <Compile Include="GetOnlyDuplicateNumbrInArray.cs" />
+    <Compile Include="Number\PrimeNumber.cs" />
+    <Compile Include="Array\PrintDuplicateNumberInArray.cs" />
+    <Compile Include="Array\PrintNonDuplicateNumberInArray.cs" />
+    <Compile Include="Pattern\PyramidPatterns.cs" />
+    <Compile Include="String\RemoveDuplicateCharInString.cs" />
+    <Compile Include="Array\ReverseArray.cs" />
+    <Compile Include="Pattern\ReversePyramidPatterns.cs" />
+    <Compile Include="Array\SearchElementInArray.cs" />
+    <Compile Include="Array\CountEvenNumberInArray.cs" />
+    <Compile Include="Array\SortArrayElementInAscendingOrder.cs" />
+    <Compile Include="String\CapitaliseFirstCharOfEachWord.cs" />
+    <Compile Include="String\CountNumberOfEachCharInGivenString.cs" />
+    <Compile Include="String\CountNumberOfWordInString.cs" />
     <Compile Include="EncapsulationDemo.cs" />
-    <Compile Include="MaximumOrMinimumElementInArray.cs" />
+    <Compile Include="Array\MaximumOrMinimumElementInArray.cs" />
     <Compile Include="PolymorphismDemo.cs" />
-    <Compile Include="PrintNonDublicateNumberInArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReversEachWord.cs" />
-    <Compile Include="ReverseNumber.cs" />
-    <Compile Include="ReverseString.cs" />
+    <Compile Include="String\ReversEachWord.cs" />
+    <Compile Include="Number\ReverseNumber.cs" />
+    <Compile Include="Pattern\ReverseString.cs" />
     <Compile Include="Simple.cs" />
-    <Compile Include="SingletoneDesignPattern.cs" />
-    <Compile Include="SortEachWordInStringAlphabeticalOrder.cs" />
-    <Compile Include="SortStringInAlphabeticalOrder.cs" />
+    <Compile Include="Pattern\SingletoneDesignPattern.cs" />
+    <Compile Include="String\SortEachWordInStringAlphabeticalOrder.cs" />
+    <Compile Include="String\SortStringInAlphabeticalOrder.cs" />
+    <Compile Include="Pattern\StarPatternProgram1.cs" />
+    <Compile Include="Pattern\StarPatternProgram2.cs" />
+    <Compile Include="Pattern\StarPatternProgram3.cs" />
+    <Compile Include="Pattern\StarPatternProgram4.cs" />
+    <Compile Include="Pattern\StarPatternProgram5.cs" />
+    <Compile Include="Pattern\StarPatternProgram6.cs" />
+    <Compile Include="Pattern\StarPatternProgram7.cs" />
+    <Compile Include="Number\SumOfNumber.cs" />
     <Compile Include="Test.cs" />
-    <Compile Include="WithoutVowelString.cs" />
-    <Compile Include="WithVowelString.cs" />
+    <Compile Include="String\WithoutVowelString.cs" />
+    <Compile Include="String\WithVowelString.cs" />
     <Compile Include="YieldDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
